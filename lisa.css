@@ -47,6 +47,16 @@ body {
     border-radius: 50% 20% / 10% 40%;
     padding: 30px;
     border: 3px solid rgba(0, 0, 0, 0.85);
+    }
+.white4 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50% 20% / 10% 40%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
 }
 /* button + button animation */
 .button {
@@ -102,10 +112,28 @@ button {
   opacity: 0.8;
 }
 /* mini lisa */
-#minilisa {
+.minilisa {
   display: none;
+  position: absolute;
+  left: 15%;
+  top: 10%;
 }
 #minilisa img {
   width: auto;
-  height: 800px;
+  height: 700px;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
