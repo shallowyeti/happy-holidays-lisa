@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+/* card */
+#cardbase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+#card img {
+    width: 500px !important;
+    height: auto;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+}
+/* whitespace */
+.white {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50% 20% / 10% 40%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+}
+.white2 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50% 20% / 10% 40%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+}
+.white3 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50% 20% / 10% 40%;
+    padding: 30px;
+    border: 3px solid rgba(0, 0, 0, 0.85);
+}
+/* button + button animation */
+.button {
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    line-height: 50px;
+    animation: wobble 1s ease-in-out infinite;
+}
+  @keyframes wobble {
+    0% { transform: translate(0%, 0%) rotate(0deg); }
+    25% { transform: translate(0%, 0%) rotate(-5deg); }
+    75% { transform: translate(0%, 0%) rotate(5deg); }
+    100% { transform: translate(0%, 0%) rotate(0deg); } 
+  }
+.button img {
+    width: 80px;
+    height: auto;
+}
+.button img:hover {
+    opacity: 0.8;
+    transition-duration: 0.4s;
+}
+.button1 {
+    width: 80px;
+    height: auto;
+    background-image: url("unpressed\ cloud.png") transparent;
+    border: none;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+#clickity {
+  font-size: 0.8em;
+}
+/* card page 2*/
+#present {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.white2 img {
+  width: 115px;
+  height: auto;
+}
+.white2 img:hover {
+  opacity: 0.8;
+}
+/* mini lisa */
+#minilisa {
+  display: none;
+}
+#minilisa img {
+  width: auto;
+  height: 800px;
+}
