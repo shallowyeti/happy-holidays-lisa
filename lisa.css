@@ -115,12 +115,13 @@ button {
 .minilisa {
   display: none;
   position: absolute;
-  left: 15%;
-  top: 10%;
+  transform: translate(-320px, -40px);
 }
 #minilisa img {
   width: auto;
   height: 700px;
+  right: 0;
+
 }
 .fade-in {
 	opacity: 1;
