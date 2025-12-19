@@ -23,7 +23,7 @@ function revealLisa()
     document.getElementById("minilisa").style.display="block";
 }
 var i = 0;
-var txt = "lisa: i hope you have a jolly and restful holiday season! i'm grateful to share a team with such a wondrous human being; thank you for being exactly who you are (and for stanning kendrick lamar) ♡♡♡";
+var txt = "lisa: i hope you have a jolly and restful holiday season! i'm grateful to share a team with such a wondrous human being; thank you for being exactly who you are (and, in keeping with the rhyme scheme, for stanning kendrick lamar) ♡";
 var speed = 50;
 
 function typeWriter() {

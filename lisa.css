@@ -38,6 +38,14 @@ body {
     padding: 30px;
     border: 3px solid rgba(0, 0, 0, 0.1);
 }
+.colourme {
+  color: #b92126;
+  display: inline-block;
+}
+.colourme2 {
+  color: #025043;
+  display: inline-block;
+}
 .white3 {
     display: none;
     position: absolute;
